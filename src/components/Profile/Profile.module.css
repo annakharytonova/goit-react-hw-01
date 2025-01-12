@@ -1,5 +1,5 @@
 .profile {
-  width: 500px;
+  width: 700px;
   height: auto;
   border: 5px solid black;
   border-radius: 15px;
@@ -8,7 +8,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.desription {
+.description {
   display: flex;
   flex-direction: column;
   align-items: center;
