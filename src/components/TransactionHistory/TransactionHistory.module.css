@@ -1,0 +1,39 @@
+.table {
+  width: 700px;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.thead {
+  background-color: rgba(0, 0, 0, 0.73);
+}
+
+.th {
+  color: white;
+  font-size: 18px;
+}
+
+.tbody {
+  text-transform: capitalize;
+  background-color: lightgray;
+  & tr:nth-child(even) {
+    background-color: white;
+  }
+}
+/* 
+.tr {
+  background-color: black;
+} */
+
+.td {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
